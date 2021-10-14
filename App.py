@@ -30,7 +30,6 @@ def main():
     st.header('Higgs Boson Event Detection')
 
     st.write('This is a simple demo of the Streamlit framework')
-    st.write('It demonstrates how to load a model, make predictions, and display the results')
     st.write('The model was trained on the Higgs Boson dataset')
 
     st.subheader('Input the Data')
