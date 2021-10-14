@@ -9,7 +9,7 @@ from tensorflow.keras.optimizers import Adam
 
 
 
-model = tf.keras.models.load_model('Higgs.h5')
+model = tf.keras.models.load_model('LSTM_Higgs_model.h5')
 
 def prediction(model,input):
     prediction = model.predict(input)
