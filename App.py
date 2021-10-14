@@ -53,6 +53,7 @@ def main():
     if st.button('Detect Event'):
         pred = prediction(model,input)        
         st.success('The event is predicted is ' + pred)
+        st.balloons()
 
     if st.button('Show Probability'):
         prob = proba(model,input)
